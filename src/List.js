@@ -18,4 +18,6 @@ function List(props) {
   )
 }
 
+List.defaultProps = {cards: []}
+
  export default List;
